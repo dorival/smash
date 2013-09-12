@@ -1,0 +1,451 @@
+a:hover{
+	text-decoration:underline;
+}
+.content_top h1{
+	margin:0 15px 0 25px;
+	display:inline-block;
+	float:left;
+}
+.categorizado{
+	padding:10px;
+	font-size: 16px;
+}
+.categorizado a{
+	color:#DF3C26;
+}
+a.dir, a.esq{float:left;}
+#fun {
+	background-image:url(../images/bg_fun.jpg);
+	height:32px;
+	color:#fff;
+	text-align:center;
+}
+#fun .fu-header .header-menu-produtos {
+	width:976px;
+	margin:0 auto;
+}
+#fun .fu-header .header-menu-produtos ul li {
+	display:inline;
+}
+div.tray{
+	width:696px;
+	margin: 0 auto;
+}
+#fun .fu-header .header-menu-produtos ul li a {
+	float:left;
+	background-image:url(../images/sprite.png);
+	background-position:-305px 0px;
+	color:#FFF;
+	font-size:12px;
+	margin-right:5px;
+	line-height:32px;
+	height:32px;
+	width:120px;
+}
+#fun .fu-header .header-menu-produtos ul li a:hover {
+	text-decoration:underline;
+}
+#fun .fu-header .header-menu-produtos ul li a.noticia:hover {
+	background-position:-305px -33px;
+}
+#fun .fu-header .header-menu-produtos ul li a.importa:hover {
+	background-position:-305px -65px;
+}
+#fun .fu-header .header-menu-produtos ul li a.abando:hover {
+	background-position:-305px -97px;
+}
+#fun .fu-header .header-menu-produtos ul li a.furries {
+	background-position:-305px -161px;
+}
+#fun .fu-header .header-menu-produtos ul li a.furries:hover {
+	background-position:-305px -129px;
+}
+#fun .fu-header .header-menu-produtos ul li a.mais {
+	background-position:-230px -33px;
+	text-indent:-9999px;
+	width:75px;
+}
+#fun .fu-header .header-menu-produtos ul li a.fauna {
+	background-image:url(../images/sprite.png);
+	background-position:-180px -65px;
+	display::inline-block;
+	margin-right:20px;
+	width:125px;
+	height:32px;
+	text-indent:-9999px;
+}
+#fun .fu-header .header-menu-produtos .header-logo a {
+	background-image:url(../images/sprite.png);
+	height:26px;
+	width:100px;
+	text-align:center;
+	color:#4e4e4e;
+	font-size:12px;
+	line-height:25px;
+	float:right;
+	text-indent:-9999px;
+}
+#fun .fu-header .header-menu-produtos .header-logo a {
+	background-position:-215px 0px;
+}
+#content{
+	background-image:url(../images/shadow_top.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	background-color:#fff;
+	text-align:center;
+}
+#content .contact{
+	color:#55452b;
+	font-size:18px;
+	background-color:#FFF;
+	text-align:left;
+	width:976px;
+	margin:0 auto;
+	padding:10px;
+}
+#content .contact form{
+	width:500px;
+	margin:0 auto;	
+}
+#content .contact form p{
+	padding-top:10px;
+	margin-bottom:10px;
+}
+#content .contact form input , #content .contact form textarea{
+	background-color:#faf2ee;
+	border:1px solid #efd6c4;
+	margin-top:10px;
+	width:500px;
+}
+#content .contact form input.send{
+		width:200px;
+		background-color: #f5b08e;
+		font-weight:bolder;
+}
+#content a.more_sugest{
+	background-image:url(../images/mais.png);
+	background-repeat:no-repeat;
+	display:block;
+	margin:0 auto;
+	height:69px;
+	width:276px;
+	text-indent:-9999px;
+	margin-top:10px;
+}
+#content .content_top{
+	width:976px;
+	margin:0 auto;
+	border-bottom:3px solid #000;
+	padding-top:15px;
+
+}
+#content .content_top a{
+	color:#df3c26;
+	text-decoration:underline;
+	font-size:24px;
+	display:inline-block;
+	height:113px;
+	font-weight:bolder;
+}
+#content .about{
+	background-color:#FFF;
+	width:976px;
+	margin:0 auto;
+	text-align:left;
+	color:#55452b;
+	font-size:14px;
+	padding-bottom:10px;	
+}
+#content .about h2{
+	padding-top:15px;
+	font-size:18px;
+}
+div.detalhes .info h1{
+	color:#55452B;
+	font-size:32px;
+	margin-top:21px;
+	float:left;
+}
+#content .about p{
+	margin-bottom:10px;
+	margin-top:10px;
+}
+#content .content_top a.content_logo{
+	background-image:url(../images/logo_lojadosfurries.png);
+	background-repeat:no-repeat;
+	width:185px;
+	display:block;
+	height:113px;
+	padding:0;
+	text-indent:-9999px;
+	cursor:pointer;
+}
+#content .content_top .content_middle{
+	clear:both;
+	background-image:url(../images/mascotes.png);
+	background-position:right;
+	background-repeat:no-repeat;
+	display:block;
+	height:188px;
+}
+#content .content_top .content_middle p{
+	float:left;
+	text-align:left;
+	font-size:14px;
+	color:#55452b;
+	margin-top:25px;
+	width:600px;
+}
+#vote{
+	background-color:#FFF;
+	margin:0 auto;
+	width:976px;
+	height:146px;
+	border-top:2px solid #000;
+}
+#vote .capa {
+	
+	float:left;
+	position:relative;
+	width:125px;
+}
+#vote .capa span{
+	position:absolute;
+	background-image:url(../images/mask.png);
+	display:block;
+	height:146px;
+	width:125px;
+}
+#vote .capa img{
+	height:146px;
+	width:125px;
+}
+#vote .info {
+	width:300px;
+	font-size:12px;
+	float:left;
+	margin-left:10px;
+}
+#vote .descricao{
+	float:right;
+	width:650px;
+}
+#vote .info h2{
+	padding-top:15px;
+	font-size:24px;
+	text-align:left;
+	color:#56462b;
+	font-weight:bolder;
+}
+#vote .capa span.mask300{
+	position: absolute;
+	background-image: url("../images/mask_mash.png");
+	display: block;
+	height: 300px;
+	width: 300px;
+}
+#vote .capa img.mask300{
+	height: 300px;
+	width: 300px;
+}
+#vote .info p.dados{
+	font-size:12px;
+	font-weight:normal;
+	display:block;
+	width:650px;
+}
+
+#vote .info ul{
+		text-align:left;
+		margin-top:10px;
+}
+#vote .info ul li{
+	display:inline;
+	color:#56462b;
+	
+}
+#vote .info ul li a {
+	color:#df3c26;
+	text-decoration:underline;
+}
+#vote .info a.more{
+	margin-top:22px;
+	color:#df3c26;
+	display:block;
+	font-weight:bolder;
+	text-align:left;
+	text-decoration:underline;
+}
+#vote .dados{
+	float:right;
+	width:530px;
+	margin-top:30px;
+}
+
+#vote .dados ul{
+	float:left;
+	width:300px;	
+}
+#vote .dados ul li{
+	float:left;
+}
+#vote .dados ul li p {
+	margin-top:20px;
+	font-size:12px;
+	font-weight:bolder;
+	color:#908e8b;
+	text-align:left;
+}
+
+#vote .dados ul li.votos_nun{
+	display:inline-block;
+	float:right;
+}
+
+#vote .dados ul li.votos_nun p{
+	font-size:18px;
+	text-align:center;
+	margin:0;
+}
+#vote .dados ul li.votos_nun p span{
+	font-size:48px;
+	display:block;
+}
+#vote .dados a.vote_button{
+	margin-top:10px;
+	background-image:url(../images/vote_button.jpg);
+	background-repeat:no-repeat;
+	float:right;
+	display:block;
+	height:44px;
+	width:194px;
+	text-indent:-9999px;
+}
+#vote .dados p.accept_button{
+	margin-top:10px;
+	background-image:url(../images/accept.png);
+	background-repeat:no-repeat;
+	float:right;
+	display:block;
+	height:44px;
+	width:194px;
+	text-indent:-9999px;
+}
+div.detalhes { text-align:left !important;}
+div.detalhes  p.dados{font-size:18px !important; color:#55452B;}
+div.detalhes div.dados{width:648px  !important;}
+div.detalhes div.dados ul{width:400px !important;}
+div.detalhes .info ul{margin-top:100px !important;}
+#mashContainer{
+	background:#FFF;
+	width:976px;
+	margin:0 auto;
+	text-align:center;
+	padding-top:15px;}
+
+#mashContainer .oneMash p{
+	line-height:40px;
+	font-size:20px;
+	text-align:left;
+	color:#df3c26;
+	font-weight:bolder;
+}
+#mashContainer .oneMash p.ringueDescricao{
+	font-size:12px;
+	line-height:15px;
+	color:#000;
+	text-align:left;
+	font-weight:normal;
+}
+#mashContainer .oneMash p.vs{
+	padding-top:200px;
+	margin:0 auto;
+	text-indent:-9999px;
+	background-image:url(../images/vs.png);
+	display:inline-block;	width:24px;
+	height:18px;	
+}
+#mashContainer p.ringue{
+	text-indent:-9999px;
+	display:block;
+	height:22px;
+	width:154px;
+	margin:0 auto;
+	background-image:url(../images/ringue.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#mashContainer .oneMash{
+	background-color:#FFF;
+	margin:0 auto;
+	display:block;
+	width:850px;
+	padding-top:10px;
+	text-align:center;
+
+}
+#mashContainer .oneMash p.versus{
+	display:inline-block;
+	background-image:url(../images/vs.png);
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	width:210px;
+	height:210px;
+	margin-top:100px;
+}
+#mashContainer .oneMash ul li{
+	text-align:left;
+}
+#mashContainer .oneMash .direita{
+	display:block;
+	width:300px;
+	float:left;
+	margin-bottom:20px;;
+}
+#mashContainer .oneMash .esquerda{
+	display:block;
+	width:300px;
+	float:right;
+		margin-bottom:20px;;
+
+}
+	
+#mashContainer .oneMash ul{
+	margin-bottom:10px;
+
+}
+#mashContainer .oneMash ul li a{
+	color:#df3c26;
+	text-decoration:underline;
+}
+#mashContainer .oneMash ul li span{
+	font-size:16px;
+	padding-left:15px;
+	font-weight:bolder;
+}
+#mashContainer .oneMash p.battle , #mashContainer .oneMash a{
+	color:#5d8e2d;
+	display:block;
+	font-size:16px;
+	margin-top:15px;
+	text-align:left;
+	padding-left:15px	
+}
+#mashContainer .oneMash p.battle span{
+	margin-left:5px;
+}
+#mashContainer .oneMash .produto span{
+	cursor:pointer;
+	position:absolute;
+	background-image:url(../images/mask_mash.png);
+	display:block;
+	height:300px;
+	width:300px;
+}
+.rodape_direita a{
+	color:#FFF;
+}
+.expand{padding:50px !important;}
+.expand p{line-height:55px;}

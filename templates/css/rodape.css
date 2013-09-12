@@ -1,0 +1,110 @@
+* {
+	background:transparent;
+	font-family:inherit;
+	margin:0;
+	outline:0;
+	padding:0;
+	border:none;
+}
+li {
+	list-style:none;
+}
+a {
+	text-decoration:none
+}
+body {
+	background-color:#fff;
+	font:x-small "Trebuchet MS", arial;
+	*font-size:1.25ex;
+	line-height:1;
+	margin-top:0;
+}
+#loja-rodape {
+	clear:both;
+	margin-top:10px;
+	background-image:url(../images/shadow_footer.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	background-color:#3c2d17;
+	border-bottom:2px solid #5b4a2f;
+	border-top:1px solid #5b4a2f;
+	text-align:center;
+	height:75px;
+	padding-top:10px;
+}
+#loja-rodape .loja-conteudo{
+	width:976px;
+	margin:0 auto;	
+}
+#loja-rodape .loja-conteudo .rodape-logo{
+	float:left;
+	
+}
+#loja-rodape .loja-conteudo .rodape-logo a{
+	background-image:url(../images/logo_furries.png);
+	text-indent:-9999px;
+	display:block;
+	height:50px;
+	width:50px;
+}
+#loja-rodape .loja-conteudo .rodape-menu-produtos{
+	float:right;
+	display:block;
+	height:30px;
+	margin-top:10px;
+	width:920px;
+	text-align:left;
+}
+#loja-rodape .loja-conteudo .rodape-menu-produtos ul{
+	width:650px;
+	float:left;
+}
+#loja-rodape .loja-conteudo .rodape-menu-produtos ul li{
+display:inline;
+border-right:1px solid #fff;
+padding:0 10px 0 10px;
+}
+#loja-rodape .loja-conteudo .rodape-menu-produtos ul li.ultimo{
+	border:none;
+}
+#loja-rodape .loja-conteudo .rodape-menu-produtos ul li a{
+	color:#fff;
+	font-size:14px;
+	font-weight:bolder;
+}
+#loja-rodape .loja-conteudo .rodape-menu-produtos ul li a:hover{
+	text-decoration:underline;
+}
+#loja-rodape .loja-conteudo .rodape-menu-produtos .rodape_direita{
+	float:left;
+}
+
+#loja-rodape .loja-conteudo .rodape-menu-produtos .rodape_esqueda{
+	float:right;
+	width:180px;
+}
+#loja-rodape .loja-conteudo .rodape-menu-produtos .rodape_esqueda strong{
+	color:#FFF;
+	display:inline-block;
+	float:left;
+}
+#loja-rodape .loja-conteudo .rodape-menu-produtos .rodape_esqueda a{
+	font-size:12px;
+	text-align:right;
+	color:#FFF;
+	display:block;
+	margin-bottom:10px;
+}
+#loja-rodape .loja-conteudo .rodape-menu-produtos .rodape_esqueda a:hover{
+	text-decoration:underline;
+}
+#loja-rodape .loja-conteudo .rodape-menu-produtos span{
+	font-size:12px;
+	color:#fff;
+	float:left;
+	display:block;
+	width:600px;
+	clear:both;
+	margin:10px 0 0 10px;
+}
